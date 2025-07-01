@@ -1,10 +1,10 @@
-    import streamlit as st
-    import time, uuid, difflib, io
-    import numpy as np
-    import pandas as pd
-    from sklearn.ensemble import RandomForestClassifier
-    import matplotlib.pyplot as plt
-    from datetime import datetime
+import streamlit as st
+import time, uuid, difflib, io
+import numpy as np
+import pandas as pd
+from sklearn.ensemble import RandomForestClassifier
+import matplotlib.pyplot as plt
+from datetime import datetime
 
     # ---------- CONFIG ----------
     st.set_page_config(page_title="ThinkType – Typing Personality", layout="centered")
